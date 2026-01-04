@@ -156,7 +156,8 @@ b. Go to insert mode with capital 'I' and then type what you want to add.
 
 You can select multiple lines and call a sequence of key strokes on each one.
 Example: select in visual mode a few lines and type: ":norm! 0wiprefix "
-or ":norm! A // some comment". It works basically like running a macro
-on each line.
+or ":norm! A // some comment". It works basically like running a macro on each line
+
+1. To quickly move vertically, use <CTRL-U> and </CTRL-D>
 
 ## Lesson 1.7

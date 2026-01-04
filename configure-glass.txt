@@ -1,0 +1,13 @@
+To configure Ghostty with transparent background:
+
+# ~/.config/ghostty/config
+
+# 0.0 is invisible, 1.0 is solid. 0.85-0.90 is the sweet spot.
+background-opacity = 0.85
+
+# Adds the macOS "frosted glass" effect. 
+# Higher values = more frost, less wallpaper detail.
+background-blur-radius = 20
+
+# Optional: Makes the titlebar blend better with the transparency
+macos-titlebar-style = transparent
