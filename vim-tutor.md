@@ -145,3 +145,8 @@ b. Go to insert mode with capital 'I' and then type what you want to add.
 2. To fix indentation on the whole file
    a. We have to do 'gg' to go to the top of the file, then =, then 'G'
    b. Here we did it to a whole file, but we can do the same with a selection
+
+3. If we want to work on something else, we can suspend Vim by pressing 'CTRL-Z'.
+   We can go back to Vim by typing 'fg' to return to Vim
+
+4. To open an URL, we highlight the URL, then pressin 'gx' (go to executable)
