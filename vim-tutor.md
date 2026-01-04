@@ -123,7 +123,8 @@ an unwanted and partially completed command.
 
 > FOR CODERS!
 
-1. For coding, I want to select the text inside brackets, curly braces, parenthesis, etc.
+1. For coding, I want to select the text inside brackets, curly braces,
+   parenthesis, etc.
 
    Type vi followed by what you want to select inside:
    'vi[' to select the text inside brackets []
@@ -149,4 +150,13 @@ b. Go to insert mode with capital 'I' and then type what you want to add.
 3. If we want to work on something else, we can suspend Vim by pressing 'CTRL-Z'.
    We can go back to Vim by typing 'fg' to return to Vim
 
-4. To open an URL, we highlight the URL, then pressin 'gx' (go to executable)
+4. To open an URL, we highlight the URL, then type 'gx' (go to executable)
+
+5. Another way to do changes to multiple lines is by using ":norm! <sequence>"
+
+You can select multiple lines and call a sequence of key strokes on each one.
+Example: select in visual mode a few lines and type: ":norm! 0wiprefix "
+or ":norm! A // some comment". It works basically like running a macro
+on each line.
+
+## Lesson 1.7
